@@ -1,0 +1,15 @@
+[package]
+name = "at-ecs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.35.0", features = ["full"] }
+async-lock = "3.2.0"
+futures = "0.3.29"
+async-trait = "0.1.74"
+uuid = { version = "1.6.1", features = ["v4"] }
+type-uuid = "0.1.2"
+itertools = "0.12.0"
